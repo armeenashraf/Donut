@@ -1,0 +1,31 @@
+@import "tailwindcss";
+
+.logo{
+    font-size: 32px;
+      font-family: "Lavishly Yours";
+      position: relative;
+    left:40px;
+    bottom: 20px;
+}
+.logo1{
+    position: relative;
+    top: 15px;
+    transition: all;
+    transition-duration: 5s;
+}
+
+.logo1:hover{
+    transform: rotate(360deg);
+    
+}
+
+.box{
+    background-color: rgb(253, 184, 207);
+    height: 600px;
+}
+
+
+nav{
+  background:transparent;
+  color:black
+}
